@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+#first-section{
+    background-image: url("media/first.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0 0 0;
+    color: #d9d9d9;
+    font-family: 'Open Sans', sans-serif;
+}
+menu a{
+    padding: 3px;
+    transition: 0.3s;
+    border-bottom: 0.05rem solid #0d0d0d;
+}
+menu a:hover{
+    cursor: pointer;
+    border-bottom: 0.05rem solid #d9d9d9;
+    transition: 0.3s;
+}
+body{
+    background: #0d0d0d;
+    background-image: linear-gradient(default ,#0d0d0d, #000 );
+}
+#languages{
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#sections-link{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#first-section h1{
+    align-self: center;
+    padding-top: 15vh;
+    color: #d9d9d9;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 65px;
+    font-weight: 400;
+}
+#first-section h3{
+    align-self: center;
+    padding-top: 2vh;
+    color: #d9d9d9;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+
+/* ------ work section ------------- */
+#second-section{
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #d9d9d9;
+    font-family: 'Anonymous Pro', monospace;
+    padding-top: 50px;
+}
+#mywork{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+.work-cards{
+    position: absolute;
+    width: 15%;
+    height: 60vh;
+    background: #1b1b1b;
+    -moz-box-shadow: 0 0 rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.3);
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.work-cards:hover{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    transition: 0.3s;
+}
+.card-img{
+    height: 55%;
+    /*max-width: 300px;
+    max-height: 350px;*/
+}
+.bg-img{
+    width: 100%;
+    height: 100%;
+}
+.card-description{
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #d9d9d9;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.card-description h2{
+    all: unset;
+    font-size: 22px;
+}
+.card-description p{
+    font-size: 16px;
+}
+.card-line{
+    width: 29px;
+}
+#upper-ss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* -------------- ABOUT ME SECTION ----------------- */
+#third-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    background-color: #000;
+    /* align-items: center; */
+}
+#ts-text{
+    margin: 5rem 10rem;
+    border: 2px solid #272323;
+    padding: 2rem; 
+    font-size: 18px;
+    color: #d9d9d9;
+    font-family: 'Open Sans', sans-serif;
+}
+#skills{
+    display: flex;
+    flex-direction: row;
+    margin: 0 10rem;
+    justify-content: space-between;
+}
+.skill-box{
+    border: 2px solid #272323;
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    transition: 0.3s;
+    font-size: 13px;
+    color: #0d0d0d;
+    font-family: 'Anonymous Pro', monospace;
+}
+.skill-box:hover{
+    transition: 0.3s;
+    padding-top: 0;
+    padding-bottom: 15px;
+    font-size: 13px;
+    color: #d9d9d9;
+}
+.skill-box img{
+    width: 60%;
+}
+#ts-title{
+    align-self: center;
+    padding-top: 15vh;
+    color: #d9d9d9;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/* ------------------- FOURTH SECTION ------------- */
+#fourth-section{
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(media/artYC/7.jpg);
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #d9d9d9;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#contact h1{
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+#extras{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #d9d9d9;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+input, textarea, button{
+    all: unset;
+    height: 35px;
+    padding: 5px;
+}
+input, textarea{
+    border-bottom: 1px solid #d9d9d9;
+    padding: 0;
+    margin-bottom: 10px;
+    font-family: 'Anonymous Pro', monospace;
+}
+textarea{
+    height: 70px;
+    padding: 10px 0;
+    white-space: pre-wrap;
+}
+button{
+    align-self: center;
+    border: 1px solid #d9d9d9;
+    padding: 1px 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#phrase{
+    border-top: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
+    width: 45%;
+    padding: 20px 20px 0 0;
+    text-align: justify;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 18px;
+    margin-bottom: 50px;;
+}
+#social-media{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.btn-social-media{
+    width: 60px;
+    text-align: center;
+    align-items: center;
+    transition: 0.3s;
+    /* padding: 0 15px; */
+}
+#send-email{
+    transition: 0.3s;
+}
+.btn-social-media:hover, #send-email:hover{
+    background-color: #d9d9d9c5;
+    color: #0d0d0d;
+    transition: 0.3s;
+}
+a{
+    all: unset;
+}
+
+/* ----------------- PROJECT SESSION ---------------- */
+
+#project-info {
+    height: 90vh;
+    background-color: #9d87a5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #110012;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#pi-title {
+    font-size: 30px;
+    padding: 0 20px;
+    border-bottom: 3px solid #0d0d0d;
+    font-weight: 600;
+}
+
+line{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: 600;
+}
+line img{
+    width: 20px;
+    vertical-align: middle;
+    padding: 0 7px;
+}
+line span{
+    display: flex;
+    flex-direction: row;
+}
+
+#project-img{
+    width: 60%;
+    margin-bottom: 20px;
+    border: 2px solid #0d0d0d;
+}
+
+more-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    justify-content: space-between;
+}
+
+description, purpose, languages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 30%;
+}
+
+more-info h4{
+    font-weight: 400;
+}
+
+more-info h3{
+    border-bottom: 2px solid #0d0d0d;
+}
+
+#back-button{
+    background-color: #F6F5EC;
+    height: 23px;
+    font-weight: 500;
+    border: 2px solid #0d0d0d;
+}
+
+space{
+    height: 5vh;
+}
+
+/* ----------------- LAST SECTION ------------------- */
+#last-section{
+    height: 110vh;
+    background-image: url(media/fourth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+/* ------------------ card movement ------------------ */
+@keyframes come-one{
+    0%{
+        opacity: 0;
+        margin-left: -1000px;
+    }
+    100%{
+        opacity: 1;
+        margin-left: -700px;
+    }
+}
+@keyframes go-3{
+    0%{
+        opacity: 1;
+        margin-right: -700px;
+    }
+    100%{
+        opacity: 0;
+        margin-right: -1000px;
+    }
+}
+
+@keyframes come-3{
+    100%{
+        opacity: 1;
+        margin-right: -700px;
+    }
+    0%{
+        opacity: 0;
+        margin-right: -1000px;
+    }
+}
+@keyframes go-one{
+    100%{
+        opacity: 0;
+        margin-left: -1000px;
+    }
+    0%{
+        opacity: 1;
+        margin-left: -700px;
+    }
+}
+@keyframes two-one{
+    0%{
+        margin: 0;
+    }
+    100%{
+        margin-left: -700px;
+    }
+}
+@keyframes three-two{
+    0%{
+        margin-right: -700px;
+    }
+    100%{
+        margin: 0;
+    }
+}
+
+@keyframes one-two{
+    0%{
+        margin-left: -700px;
+    }
+    100%{
+        margin: 0;
+    }
+    
+}
+@keyframes two-three{
+    0%{
+        margin: 0;
+    }
+    100%{
+        margin-right: -700px;
+    }
+    
+}
+#leftArrow{
+    z-index: 5;
+    width: 15px;
+    display: inline-block;
+}
+#rightArrow{
+    z-index: 5;
+    width: 15px;
+    display: inline-block;
+}
+
+#leftArrow:hover, #rightArrow:hover{
+    cursor: pointer;
+}
+#card-8{
+    margin-left: -1000px;
+    opacity: 0;
+}
+#card-9{
+    margin-left: -1000px;
+    opacity: 0;
+}
+#card-10{
+    margin-left: -1000px;
+    opacity: 0;
+}
+#aux{
+    margin-left: -1000px;
+    opacity: 0; 
+}
+#card-1{
+    margin-left: -700px;
+    display: block;
+}
+#card-2{
+    margin-right: 0;
+    margin-left: 0;
+    display: block;
+}
+#card-3{
+    margin-right: -700px;
+    display: block;
+}
+#card-4{
+    margin-right: -1000px;
+    opacity: 0;
+}
+#card-5{
+    margin-right: -1000px;
+    opacity: 0;
+}
+#card-6{
+    margin-right: -1000px;
+    opacity: 0;
+}
+#card-7{
+    margin-right: -1000px;
+    opacity: 0;
+}
+
+
+/* customizable snowflake styling */
+.snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial;
+    text-shadow: 0 0 1px #000;
+}
+
+@-webkit-keyframes snowflakes-fall{
+    0%{
+        top:-10%
+    }
+    100%{
+        top:100%
+    }
+}
+@-webkit-keyframes snowflakes-shake{
+    0%{
+        -webkit-transform:translateX(0px);transform:translateX(0px)
+    }
+    50% {
+        -webkit-transform:translateX(80px);transform:translateX(80px)
+    }
+    100%{
+        -webkit-transform:translateX(0px);transform:translateX(0px)
+    }
+}
+@keyframes snowflakes-fall{
+    0%{
+        top:-10%
+    }
+    100%{
+        top:100%
+    }
+}
+@keyframes snowflakes-shake{
+    0%{
+        transform:translateX(0px)
+    }
+    50%{
+        transform:translateX(80px)
+    }
+    100%{
+        transform:translateX(0px)
+    }
+}
+.snowflake{
+    position:absolute;
+    top:-10%;
+    z-index:9999;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+    cursor:default;
+    -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+    -webkit-animation-duration:10s,3s;
+    -webkit-animation-timing-function:linear,ease-in-out;
+    -webkit-animation-iteration-count:infinite,infinite;
+    -webkit-animation-play-state:running,running;
+    animation-name:snowflakes-fall,snowflakes-shake;
+    animation-duration:10s,3s;
+    animation-timing-function:linear,ease-in-out;
+    animation-iteration-count:infinite,infinite;
+    animation-play-state:running,running
+}
+.snowflake:nth-of-type(0){
+    left:1%;
+    -webkit-animation-delay:0s,0s;
+    animation-delay:0s,0s
+}
+.snowflake:nth-of-type(1){
+    left:10%;
+    -webkit-animation-delay:1s,1s;
+    animation-delay:1s,1s
+}
+.snowflake:nth-of-type(2){
+    left:20%;-webkit-animation-delay:6s,.5s;
+    animation-delay:6s,.5s
+}
+.snowflake:nth-of-type(3){
+    left:30%;
+    -webkit-animation-delay:4s,2s;
+    animation-delay:4s,2s
+}
+.snowflake:nth-of-type(4){
+    left:40%;
+    -webkit-animation-delay:2s,2s;
+    animation-delay:2s,2s
+}
+.snowflake:nth-of-type(5){
+    left:50%;
+    -webkit-animation-delay:8s,3s;
+    animation-delay:8s,3s
+}
+.snowflake:nth-of-type(6){
+    left:60%;
+    -webkit-animation-delay:6s,2s;
+    animation-delay:6s,2s
+}
+.snowflake:nth-of-type(7){
+    left:70%;
+    -webkit-animation-delay:2.5s,1s;
+    animation-delay:2.5s,1s
+}
+.snowflake:nth-of-type(8){
+    left:80%;
+    -webkit-animation-delay:1s,0s;animation-delay:1s,0s
+}
+.snowflake:nth-of-type(9){
+    left:90%;
+    -webkit-animation-delay:3s,1.5s;
+    animation-delay:3s,1.5s
+}
