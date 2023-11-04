@@ -7,7 +7,7 @@ a{
     cursor: pointer;
 }
 #first-section{
-    background-image: url("first.png");
+    background-image: url("images/header.png");
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -206,7 +206,7 @@ body{
     flex-direction: row;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
-    background-image: url(7.jpg);
+    background-image: url(images/black.jpg);
 }
 #contact{
     display: flex;
@@ -381,7 +381,7 @@ space{
 /* ----------------- LAST SECTION ------------------- */
 #last-section{
     height: 110vh;
-    background-image: url(fourth.png);
+    background-image: url(images/footer.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
