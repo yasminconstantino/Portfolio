@@ -66,6 +66,11 @@ body{
     font-weight: 400;
 }
 
+#first-section h2 {
+    color: #110012;
+    font-size: 36px;
+    align-self: center;
+}
 
 /* ------ work section ------------- */
 #second-section{
@@ -385,7 +390,7 @@ space{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
 }
 /* ------------------ card movement ------------------ */
 @keyframes come-one{
