@@ -1,9 +1,9 @@
 $(function () { 
     $(".en").click(function() {
         //menu
-        $("#mywork").text("My work");
-        $("#boutme").text("About me");
-        $("#contact").text("Contact");
+        $(".mywork").text("My work");
+        $(".boutme").text("About me");
+        $(".contact").text("Contact");
 
         //title
         $(".welcome").text("Welcome to my Portfolio!");
@@ -49,9 +49,9 @@ $(function () {
 $(function () { 
     $(".br").click(function() {
         //menu
-        $("#mywork").text("Meu trabalho");
-        $("#boutme").text("Sobre mim");
-        $("#contact").text("Contato");
+        $(".mywork").text("Meu trabalho");
+        $(".boutme").text("Sobre mim");
+        $(".contact").text("Contato");
         //titulo
         $(".welcome").text("Bem-vindo ao meu Portfolio!");
         $("#try").text("Ainda em desenvolvimento..");
