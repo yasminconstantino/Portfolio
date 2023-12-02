@@ -1,9 +1,9 @@
 $(function () { 
     $(".en").click(function() {
         //menu
-        $("#sections-link").children().eq(0).text("My work");
-        $("#sections-link").children().eq(1).text("About me");
-        $("#sections-link").children().eq(2).text("Contact");
+        $("#mywork").text("My work");
+        $("#boutme").text("About me");
+        $("#contact").text("Contact");
 
         //title
         $(".welcome").text("Welcome to my Portfolio!");
@@ -16,10 +16,10 @@ $(function () {
         $(".d01").text("This is a simple form to make the subscription to a Halloween Party, made using HTML, CSS and Javascript");
         $(".p02").text("Project 02");
         $(".d02").text("This is a simple calculator that I made to practice my Javascript skills, i also used HTML and CSS");        
-        $(".p03").text("Project 03");
-        $(".d03").text("This is an e-commerce web site developed in NodeJs, and I also used HTML and CSS");        
-        $(".p04").text("Project 04");
-        $(".d04").text("This is a ping pong game, developed in Javascript at p5js");        
+        $(".p03").text("Coming soon");
+        $(".d03").text("In development..");        
+        $(".p04").text("Coming soon");
+        $(".d04").text("In development..");        
         $(".p05").text("Coming soon");
         $(".d05").text("In development..");        
         $(".p06").text("Coming soon");
@@ -39,7 +39,7 @@ $(function () {
         $(".sb").text("Subject:");
         $(".ms").text("Message:");
         $("#send-email").text("Send");
-        $("#phrase").text("You can find me below");
+        $("#phrase").text("Feel free to reach out to me via the social media links below:");
         $("#rs").text("Resume");
         
         
@@ -49,10 +49,9 @@ $(function () {
 $(function () { 
     $(".br").click(function() {
         //menu
-        $("#sections-link").children().eq(0).text("Meu trabalho");
-        $("#sections-link").children().eq(1).text("Sobre mim");
-        $("#sections-link").children().eq(2).text("Contato");
-
+        $("#mywork").text("Meu trabalho");
+        $("#boutme").text("Sobre mim");
+        $("#contact").text("Contato");
         //titulo
         $(".welcome").text("Bem-vindo ao meu Portfolio!");
         $("#try").text("Ainda em desenvolvimento..");
@@ -64,10 +63,10 @@ $(function () {
         $(".d01").text("Esse é um simples formulário para se increver em uma festa de Halloween, feito usando HTML, CSS e Javascript");
         $(".p02").text("Projeto 02");
         $(".d02").text("Essa é uma calculadora simples que eu fiz para praticar minhas habilidades em Javascript, eu também utilizei HTML e CSS");        
-        $(".p03").text("Projeto 03");
-        $(".d03").text("Esse é um site e-commerce feito em NodeJs, e eu também utilizei HTML e CSS");        
-        $(".p04").text("Projeto 04");
-        $(".d04").text("Esse é um jogo ping pong, feito em Javascript no p5js");        
+        $(".p03").text("Em breve");
+        $(".d03").text("Em desenvolvimento..");        
+        $(".p04").text("Em breve");
+        $(".d04").text("Em desenvolvimento..");        
         $(".p05").text("Em breve");
         $(".d05").text("Em desenvolvimento..");        
         $(".p06").text("Em breve");
@@ -87,7 +86,7 @@ $(function () {
         $(".sb").text("Assunto:");
         $(".ms").text("Mensagem:");
         $("#send-email").text("Enviar");
-        $("#phrase").text("Você pode me encontrar abaixo");
+        $("#phrase").text("Sinta-se à vontade para entrar em contato comigo através dos links abaixo:");
         $("#rs").text("Currículo");
 
     });
