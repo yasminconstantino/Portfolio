@@ -9,21 +9,21 @@
 <body>
     <section id="first-section">
         <menu>
-            <!--
+            
                 <div id="languages">
-                <span><a>Português</a></span>
-                <span><a>English</a></span>
-            </div>
-            -->
+                    <button class="en" onclick="changeLanguage('en')">English</button>
+                    <button class="br" onclick="changeLanguage('pt-BR')">Português</button>                    
+                </div>
+            
             <div id="sections-link">
-                <span><a href="#mywork">My work</a></span>
-                <span><a href="#third-section">About me</a></span>
-                <span><a href="#contact">Contact</a></span>
+                <span><a href="#mywork" >My work</a></span>
+                <span><a href="#third-section" >About me</a></span>
+                <span><a href="#contact" >Contact</a></span>
             </div>
         </menu>
-        <h1>Web Developer and Artist</h1>
+        <h1 class="welcome" >Welcome to my Portfolio!</h1>
         <br>
-        <h2 id="try">In development</h2>
+        <h2 id="try">In development..</h2>
         <br>
         <h3>Yasmin Constantino</h3>
         <div class="snowflakes" aria-hidden="true">
@@ -72,9 +72,9 @@
                </div>
                <div class="card-description">
                     <hr class="card-line">
-                    <h2>Project 01<br></h2>
-                    <p>A simple form to make the subscription to a Halloween Party</p>
-                    <p><a href="https://yasminconstantino.github.io/HalloweenForm/">Click here</a></p>
+                    <h2 class="p01">Project 01<br></h2>
+                    <p class="d01">This is a simple form to make the subscription to a Halloween Party, made using HTML, CSS and Javascript</p>
+                    <p class="lk"><a href="https://yasminconstantino.github.io/HalloweenForm/">Click here</a></p>
                </div>
             </div>
 
@@ -84,9 +84,9 @@
                </div>
                <div class="card-description">
                     <hr class="card-line">
-                    <h2>project 02 </h2>
-                    <p>A calculator to practice my javascript skills</p>
-                    <p><a href="https://yasminconstantino.github.io/jsCalculator/">Click here</a></p>
+                    <h2 class="p02">project 02 </h2>
+                    <p class="d02">This is a simple calculator that I made to practice my Javascript skills, i also used HTML and CSS</p>
+                    <p class="lk"><a href="https://yasminconstantino.github.io/jsCalculator/">Click here</a></p>
                </div>
             </div>
 
@@ -96,8 +96,8 @@
                 </div>
                 <div class="card-description">
                      <hr class="card-line">
-                     <h2>Project 03 <br> (in development..)</h2>
-                     <p>An e-commerce web site developed in nodejs</p>
+                     <h2 class="p03">Project 03 <br> (in development..)</h2>
+                     <p class="d03">This is an e-commerce web site developed in NodeJs, and I also used HTML and CSS</p>
                 </div>
              </div>
  
@@ -107,8 +107,8 @@
                 </div>
                 <div class="card-description">
                      <hr class="card-line">
-                     <h2>Project 04<br>(in development..)</h2>
-                     <p>A ping pong game, developed in Javascript at p5js</p>
+                     <h2 class="p04">Project 04<br>(in development..)</h2>
+                     <p class="d04">This is a ping pong game, developed in Javascript at p5js</p>
                 </div>
              </div>
 
@@ -118,8 +118,8 @@
                </div>
                <div class="card-description">
                     <hr class="card-line">
-                    <h2>Coming soon</h2>
-                    <p><!--A news website made for a college project -->in development</p>
+                    <h2 class="p05" class="sn">Coming soon</h2>
+                    <p class="d05"><!--A news website made for a college project -->In development..</p>
                </div>
             </div>
 
@@ -129,8 +129,8 @@
                </div>
                <div class="card-description">
                     <hr class="card-line">
-                    <h2>Coming soon</h2>
-                    <p>in development</p>
+                    <h2 class="p06">Coming soon</h2>
+                    <p class="d06">in development</p>
                </div>
             </div>
 
@@ -140,8 +140,8 @@
                </div>
                <div class="card-description">
                     <hr class="card-line">
-                    <h2>Contact/Coming soon</h2>
-                    <p><!--A contact page with functional input validation functions, made for a college project.-->in development</p>
+                    <h2 class="p07">Contact/Coming soon</h2>
+                    <p class="d07"><!--A contact page with functional input validation functions, made for a college project.-->in development</p>
                </div>
             </div>
 
@@ -151,8 +151,8 @@
                </div>
                <div class="card-description">
                     <hr class="card-line">
-                    <h2>Coming soon</h2>
-                    <p>in development</p>
+                    <h2 class="p08">Coming soon</h2>
+                    <p class="d08">in development</p>
                </div>
             </div>
 
@@ -162,8 +162,8 @@
                </div>
                <div class="card-description">
                     <hr class="card-line">
-                    <h2>Coming soon</h2>
-                    <p>in development</p>
+                    <h2 class="p09">Coming soon</h2>
+                    <p class="d09">in development</p>
                </div>
             </div>
 
@@ -173,8 +173,8 @@
                </div>
                <div class="card-description">
                     <hr class="card-line">
-                    <h2>Coming soon</h2>
-                    <p>in development</p>
+                    <h2 class="p10">Coming soon</h2>
+                    <p class="d10">in development</p>
                </div>
             </div>
             
@@ -210,8 +210,9 @@
     <section id="third-section">
         <span id="ts-title">ABOUT ME</span>
         <div id="ts-text">
-            My name is Yasmin and I'm 23 years old. I like challenging myself learning new things. I used to be just an artist, but now i'm also starting my career as an Web Developer.
-            I also started studying Internet Systems Technology at IFSul, as my first graduation. Before this I learned a lot things by my own and with Alura and Rocketseat projects.
+            Hello there! My name is Yasmin and I'm 23 years old. I like challenging myself learning new things. I used to be just an artist, but now i'm also starting my career as an Web Developer.
+            Besides I'm studying Internet Systems Technology at IFSul, as my first graduation. Before that I learned a lot things by my own and with Alura and Rocketseat projects.
+            I'm a self-taught person, I learned English by my own, and I also learned a lot about development by myself, like Python, JavaScript, C++, HTML and CSS.
         </div>
         <div id="skills">
             <div class="skill-box">
@@ -243,26 +244,34 @@
     </section>
     <section id="fourth-section">
         <div id="contact">
-            <h1>Contact</h1>
+            <h1 class="ct">Contact</h1>
             <form action="https://formsubmit.co/theyasminconstantino@gmail.com" method="POST" id="form">
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
-                <label for="email">Your email:</label>
+                <label class="em" for="email">Your email:</label>
                 <input id="email" name="email" type="email" required>
-                <label for="_subject">Subject:</label>
+                <label class="sb" for="_subject">Subject:</label>
                 <input id="_subject" name="subject" type="text" required>
-                <label for="email">Message:</label>
+                <label class="ms" for="email">Message:</label>
                 <textarea id="message" name="message" type="text" cols="50" required></textarea>
                 <button type="submit" id="send-email">Send</button>
             </form>
         </div>
         <div id="extras">
             <div id="phrase">
-                You can see more of me and my projects below.
+                You can find me below
             </div>
             <div id="social-media">
-                <span class="social-media"><a target="_blank" href="https://github.com/yasminconstantino"><button class="btn-social-media">Github</button></a><a target="_blank" href="https://www.instagram.com/the.yasminconstantino/"><button class="btn-social-media">Instagram</button></a></span>
-                <span class="social-media"><a target="_blank" href="https://www.linkedin.com/in/yasmin-constantino/"><button class="btn-social-media">Linkedin</button></a><a target="_blank" href="#"><button class="btn-social-media">Resume</button></a></span>
+                <span class="social-media"><a target="_blank" href="https://github.com/yasminconstantino">
+                <button class="btn-social-media">Github</button></a>
+                <!--
+                <a target="_blank" href="https://www.instagram.com/the.yasminconstantino/">
+                <button class="btn-social-media">Instagram</button></a></span>
+                -->
+                <span class="social-media"><a target="_blank" href="https://www.linkedin.com/in/yasmin-constantino/"><button class="btn-social-media">Linkedin</button></a>
+                <!--<a target="_blank" href="#"><button class="btn-social-media" id="rs">Resume</button></a>
+                -->
+                </span>
             </div>
         </div>
     </section>
@@ -270,5 +279,7 @@
         
     </section>
     <script src="script.js"></script>
+    <script src="language.js" ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 </body>
 </html>

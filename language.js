@@ -1,0 +1,94 @@
+$(function () { 
+    $(".en").click(function() {
+        //menu
+        $("#sections-link").children().eq(0).text("My work");
+        $("#sections-link").children().eq(1).text("About me");
+        $("#sections-link").children().eq(2).text("Contact");
+
+        //title
+        $(".welcome").text("Welcome to my Portfolio!");
+        $("#try").text("In development..");
+
+        //second section
+        $("#ss-tile").text("My projects");
+        $(".lk").text("Click here");
+        $(".p01").text("Project 01");
+        $(".d01").text("This is a simple form to make the subscription to a Halloween Party, made using HTML, CSS and Javascript");
+        $(".p02").text("Project 02");
+        $(".d02").text("This is a simple calculator that I made to practice my Javascript skills, i also used HTML and CSS");        
+        $(".p03").text("Project 03");
+        $(".d03").text("This is an e-commerce web site developed in NodeJs, and I also used HTML and CSS");        
+        $(".p04").text("Project 04");
+        $(".d04").text("This is a ping pong game, developed in Javascript at p5js");        
+        $(".p05").text("Coming soon");
+        $(".d05").text("In development..");        
+        $(".p06").text("Coming soon");
+        $(".d06").text("In development..");        
+        $(".p07").text("Coming soon");
+        $(".d07").text("In development..");        
+        $(".p08").text("Coming soon");
+        $(".d08").text("In development..");        
+        $(".p09").text("Coming soon");
+        $(".d09").text("In development..");        
+        $(".p10").text("Coming soon");
+        $(".d10").text("In development..");
+        $("#ts-title").text("About me");
+        $("#ts-text").text("Hello there! My name is Yasmin and I'm 23 years old. I like challenging myself learning new things.I used to be just an artist, but now i'm also starting my career as an Web Developer. Besides I'm studying Internet Systems Technology at IFSul, as my first graduation. Before that I learned a lot things by my own and with Alura and Rocketseat projects. I'm a self-taught person, I learned English by my own, and I also learned a lot about development by myself, like Python, JavaScript, C++, HTML and CSS.");
+        $(".ct").text("Contact me");
+        $(".em").text("Your email:");
+        $(".sb").text("Subject:");
+        $(".ms").text("Message:");
+        $("#send-email").text("Send");
+        $("#phrase").text("You can find me below");
+        $("#rs").text("Resume");
+        
+        
+    });
+});
+
+$(function () { 
+    $(".br").click(function() {
+        //menu
+        $("#sections-link").children().eq(0).text("Meu trabalho");
+        $("#sections-link").children().eq(1).text("Sobre mim");
+        $("#sections-link").children().eq(2).text("Contato");
+
+        //titulo
+        $(".welcome").text("Bem-vindo ao meu Portfolio!");
+        $("#try").text("Ainda em desenvolvimento..");
+        
+        //seção secundaria
+        $("#ss-tile").text("Meus projetos");
+        $(".lk").text("Clique aqui");
+        $(".p01").text("Projeto 01");
+        $(".d01").text("Esse é um simples formulário para se increver em uma festa de Halloween, feito usando HTML, CSS e Javascript");
+        $(".p02").text("Projeto 02");
+        $(".d02").text("Essa é uma calculadora simples que eu fiz para praticar minhas habilidades em Javascript, eu também utilizei HTML e CSS");        
+        $(".p03").text("Projeto 03");
+        $(".d03").text("Esse é um site e-commerce feito em NodeJs, e eu também utilizei HTML e CSS");        
+        $(".p04").text("Projeto 04");
+        $(".d04").text("Esse é um jogo ping pong, feito em Javascript no p5js");        
+        $(".p05").text("Em breve");
+        $(".d05").text("Em desenvolvimento..");        
+        $(".p06").text("Em breve");
+        $(".d06").text("Em desenvolvimento..");        
+        $(".p07").text("Em breve");
+        $(".d07").text("Em desenvolvimento..");        
+        $(".p08").text("Em breve");
+        $(".d08").text("Em desenvolvimento..");        
+        $(".p09").text("Em breve");
+        $(".d09").text("Em desenvolvimento..");        
+        $(".p10").text("Em breve");
+        $(".d10").text("Em desenvolvimento..");
+        $("#ts-title").text("Sobre mim");
+        $("#ts-text").text("Oii! Meu nome é Yasmin e eu tenho 23 anos. Eu gosto de me desafiar a aprender coisas novas.Eu costumava ser apenas uma artista, Mas agora eu também estou iniciando minha carreira como uma Desenvolvedora Web.Além disso eu também estou cursando Tecnologia em Sistemas para Internet no IFSul, é a minha primeria graduação. Antes disso eu aprendi muito sozinha e também com pequenos projetos na Alura e Rocketseat. Eu sou autodidata, Eu aprendi inglês sozinha e também aprendi muito sobre programação sozinha, como Python, JavaScript, C++, HTML e CSS.");
+        $(".ct").text("Entre em contato");
+        $(".em").text("Seu email:");
+        $(".sb").text("Assunto:");
+        $(".ms").text("Mensagem:");
+        $("#send-email").text("Enviar");
+        $("#phrase").text("Você pode me encontrar abaixo");
+        $("#rs").text("Currículo");
+
+    });
+});

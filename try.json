@@ -1,0 +1,15 @@
+{
+    "en": {
+      "welcome": "Welcome to my portfolio!",
+      "about": "About Me",
+      "projects": "My Projects",
+      "contact": "Contact"
+    },
+    "pt": {
+      "welcome": "Bem-vindo ao meu portfólio!",
+      "about": "Sobre Mim",
+      "projects": "Meus Projetos",
+      "contact": "Contato"
+    }
+  }
+  
