@@ -1,6 +1,6 @@
 <H1>Yasmin's Portfolio</H1>
 <img src="icons/portfolio (1).png" width="40" />
-<h2>It still in development as myslef</h2>
+<h2>It still in development as myself</h2>
 <br>
 <p>This is my portfolio, where you can find my projects, infos and links. You also can read it in both English and Portuguese.</p>
 <br>
