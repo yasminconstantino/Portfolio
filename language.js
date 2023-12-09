@@ -16,8 +16,8 @@ $(function () {
         $(".d01").text("This is a simple form to make the subscription to a Halloween Party, made using HTML, CSS and Javascript");
         $(".p02").text("Project 02");
         $(".d02").text("This is a simple calculator that I made to practice my Javascript skills, i also used HTML and CSS");        
-        $(".p03").text("Coming soon");
-        $(".d03").text("In development..");        
+        $(".p03").text("Project 03");
+        $(".d03").text("This is an website that i made for a college project about Slytherin and Hogwarts, for Slytherin students as me. I used CSS and HTML");        
         $(".p04").text("Coming soon");
         $(".d04").text("In development..");        
         $(".p05").text("Coming soon");
@@ -63,8 +63,8 @@ $(function () {
         $(".d01").text("Esse é um simples formulário para se increver em uma festa de Halloween, feito usando HTML, CSS e Javascript");
         $(".p02").text("Projeto 02");
         $(".d02").text("Essa é uma calculadora simples que eu fiz para praticar minhas habilidades em Javascript, eu também utilizei HTML e CSS");        
-        $(".p03").text("Em breve");
-        $(".d03").text("Em desenvolvimento..");        
+        $(".p03").text("Projeto 03");
+        $(".d03").text("Este é um site que fiz para um projeto de faculdade sobre Sonserina e Hogwarts, para alunos da Sonserina como eu. Usei CSS e HTML");        
         $(".p04").text("Em breve");
         $(".d04").text("Em desenvolvimento..");        
         $(".p05").text("Em breve");
