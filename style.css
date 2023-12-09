@@ -649,3 +649,30 @@ space{
     -webkit-animation-delay:3s,1.5s;
     animation-delay:3s,1.5s
 }
+
+/* Opnening style*/
+.opni {
+    background-image: url("images/Design sem nome.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.opni button, h1, h2{
+    margin: 50px;
+}
+
+.opni h1 {
+    color: #9d87a5;
+}
+
+.opni h2 {
+    color: #f2f2f2;
+}
+
+.opni button {
+    color:#d9d9d9;
+}
