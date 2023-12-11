@@ -42,6 +42,12 @@ $(function () {
         $("#phrase").text("Feel free to reach out to me via the social media links below:");
         $("#rs").text("Resume");
         
+        //opening page
+        $(".mins").text("Yasmin Constantino");
+        $("#wda").text("Web developer and artist");
+        $(".go").text("Go to the Portfolio");
+        $(".art").text("Check my art");
+
         
     });
 });
@@ -89,5 +95,13 @@ $(function () {
         $("#phrase").text("Sinta-se à vontade para entrar em contato comigo através dos links abaixo:");
         $("#rs").text("Currículo");
 
+
+                // pagina de abertura
+                $(".mins").text("Yasmin Constantino");
+                $("#wda").text("Desenvolverdora web e artista");
+                $(".go").text("Ir ao Portfolio");
+                $(".art").text("Veja minha arte");
+
+                
     });
 });
