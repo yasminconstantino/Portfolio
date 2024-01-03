@@ -41,7 +41,7 @@ $(function () {
         $("#send-email").text("Send");
         $("#phrase").text("Feel free to reach out to me via the social media links below:");
         $("#rs").text("Resume");
-        $("#last").text("Developed by Yasmin Constantino - 2024");
+        $("#last").text("Developed by Yasmin Constantino 2024");
         $("#lastr").text("all rights reserved");
         
         //opening page
@@ -95,7 +95,7 @@ $(function () {
         $("#send-email").text("Enviar");
         $("#phrase").text("Sinta-se à vontade para entrar em contato comigo através dos links abaixo:");
         $("#rs").text("Currículo");
-        $("#last").text("Desenvolvido por Yasmin Constantino - 2024");
+        $("#last").text("Desenvolvido por Yasmin Constantino 2024");
         $("#lastr").text("todos os direitos reservados");
 
         // pagina de abertura
