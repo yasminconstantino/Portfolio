@@ -68,6 +68,7 @@ body{
     opacity: 0.5;
     padding: 8px;
     font-size: 20px;
+    border: 2px solid #5f3f61;
 }
 
 #sections-link span:hover {
@@ -75,6 +76,8 @@ body{
     background-color: #0d0d0d;
     color: #adabab;
     transition: 0.3s;
+    border-radius: 10px;
+    border: 1px solid #5f3f61;
 }
 
 #first-section h1{
