@@ -41,14 +41,15 @@ $(function () {
         $("#send-email").text("Send");
         $("#phrase").text("Feel free to reach out to me via the social media links below:");
         $("#rs").text("Resume");
+        $("#last").text("Developed by Yasmin Constantino - 2024");
+        $("#lastr").text("all rights reserved");
         
         //opening page
         $(".mins").text("Yasmin Constantino");
         $("#wda").text("Web developer and artist");
         $(".go").text("Go to the Portfolio");
         $(".art").text("Check my art");
-
-        
+    
     });
 });
 
@@ -94,14 +95,14 @@ $(function () {
         $("#send-email").text("Enviar");
         $("#phrase").text("Sinta-se à vontade para entrar em contato comigo através dos links abaixo:");
         $("#rs").text("Currículo");
+        $("#last").text("Desenvolvido por Yasmin Constantino - 2024");
+        $("#lastr").text("todos os direitos reservados");
 
+        // pagina de abertura
+        $(".mins").text("Yasmin Constantino");
+        $("#wda").text("Desenvolverdora web e artista");
+        $(".go").text("Ir ao Portfolio");
+        $(".art").text("Veja minha arte");
 
-                // pagina de abertura
-                $(".mins").text("Yasmin Constantino");
-                $("#wda").text("Desenvolverdora web e artista");
-                $(".go").text("Ir ao Portfolio");
-                $(".art").text("Veja minha arte");
-
-                
     });
 });

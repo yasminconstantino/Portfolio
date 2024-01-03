@@ -6,8 +6,8 @@ a{
     all: unset;
     cursor: pointer;
 }
-#first-section{
-    background-image: url("images/header.png");
+#first-section, #last-section{
+    background-image: url("images/headerbw.png");
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -42,10 +42,12 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
 }
+/*
 #languages:hover {
     color: #9d87a5;
+    transition: 0.3s;
 }
-
+*/
 #sections-link{
     width: 40%;
     display: flex;
@@ -60,7 +62,7 @@ body{
     font-size: 65px;
     font-weight: 400;
 }
-#first-section h3{
+#first-section h3, #last-section h3 {
     align-self: center;
     padding-top: 2vh;
     color: #d9d9d9;
@@ -69,8 +71,8 @@ body{
     font-weight: 400;
 }
 
-#first-section h2 {
-    color: #110012;
+#first-section h2, #last-section h2 {
+    color: #5f3f61;
     font-size: 36px;
     align-self: center;
 }
@@ -216,7 +218,7 @@ body{
     flex-direction: row;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
-    background-image: url(images/black.jpg);
+    background-image: url("images/bw.png");
 }
 #contact{
     display: flex;
@@ -264,10 +266,21 @@ textarea{
 }
 button{
     align-self: center;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #9d87a5;
+    color: #9d87a5;
     padding: 1px 40px;
     cursor: pointer;
     margin-top: 20px;
+    border-radius: 15px;
+    background-color: #1b1b1b;
+    opacity: 0.5;
+}
+button:hover {
+    border: 1px solid #5f3f61;
+    opacity: 0.8;
+    background-color: #0d0d0d;
+    color: #5f3f61;
+    transition: 0.3s;
 }
 
 #phrase{
@@ -301,11 +314,12 @@ button{
 #send-email{
     transition: 0.3s;
 }
-.btn-social-media:hover, #send-email:hover{
-    background-color: #d9d9d9c5;
+#send-email:hover{
+    background-color: #5f3f61;
     color: #0d0d0d;
     transition: 0.3s;
 }
+
 a{
     all: unset;
 }
@@ -378,7 +392,7 @@ more-info h3{
 }
 
 #back-button{
-    background-color: #F6F5EC;
+    background-color: #272323;
     height: 23px;
     font-weight: 500;
     border: 2px solid #0d0d0d;
@@ -391,7 +405,7 @@ space{
 /* ----------------- LAST SECTION ------------------- */
 #last-section{
     height: 110vh;
-    background-image: url(images/footer.png);
+    background-image: url("images/footerbw.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -653,7 +667,7 @@ space{
 
 /* Opnening style*/
 .opni {
-    background-image: url("images/Design sem nome.png");
+    background-image: url("images/coverbw.png");
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -676,4 +690,12 @@ space{
 
 .opni button {
     color:#d9d9d9;
+}
+
+/*details footer*/
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
 }
