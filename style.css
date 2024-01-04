@@ -7,7 +7,7 @@ a{
     all: unset;
     cursor: pointer;
 }
-#first-section, #last-section{
+#first-section{
     background-image: url("images/headerbw.png");
     height: 100vh;
     background-position: center;
@@ -22,7 +22,7 @@ menu{
     justify-content: space-between;
     padding: 50px 0 0 0;
     color: #d9d9d9;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 menu a{
     padding: 3px;
@@ -54,7 +54,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: #bbbaba;
+    color: #000;
 }
 
 #sections-link span {
@@ -64,9 +64,10 @@ body{
     cursor: pointer;
     margin-top: 20px;
     border-radius: 10px;
-    background-color: #000;
+    background-color: #5f3f61;
     opacity: 0.5;
     padding: 8px;
+    font-weight: bolder;    ;
     font-size: 20px;
     border: 2px solid #5f3f61;
 }
@@ -83,8 +84,7 @@ body{
 #first-section h1{
     align-self: center;
     padding-top: 15vh;
-    color: #9d87a5;
-    font-family: 'Anonymous Pro', monospace;
+    color: #7e4a81;
     font-size: 65px;
     font-weight: 400;
     font-family: 'Dancing Script', cursive;
@@ -93,7 +93,6 @@ body{
     align-self: center;
     padding-top: 2vh;
     color: #bbbaba;
-    font-family: 'Anonymous Pro', monospace;
     font-size: 26px;
     font-weight: 400;
     font-family: 'Dancing Script', cursive;
@@ -103,6 +102,7 @@ body{
     color: #bbbaba;
     font-size: 36px;
     align-self: center;
+    font-weight: 200;
 }
 
 /* ------ work section ------------- */
@@ -113,7 +113,7 @@ body{
     justify-content: center;
     text-align: center;
     color: #d9d9d9;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Lato', sans-serif;
     padding-top: 50px;
 }
 #mywork{
@@ -161,12 +161,14 @@ body{
     justify-content: space-evenly;
     align-items: center;
     color: #d9d9d9;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
 .card-description h2{
     all: unset;
-    font-size: 22px;
+    font-size: 28px;
+    color: #7e4a81;
+    font-family: 'Dancing Script', cursive;
 }
 .card-description p{
     font-size: 16px;
@@ -197,7 +199,8 @@ body{
     padding: 2rem; 
     font-size: 18px;
     color: #d9d9d9;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    
 }
 #skills{
     display: flex;
@@ -218,7 +221,7 @@ body{
     transition: 0.3s;
     font-size: 13px;
     color: #0d0d0d;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Lato', sans-serif;
 }
 .skill-box:hover{
     transition: 0.3s;
@@ -234,7 +237,7 @@ body{
     align-self: center;
     padding-top: 15vh;
     color: #d9d9d9;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Lato', sans-serif;
     font-size: 26px;
     font-weight: 400;
 }
@@ -245,7 +248,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     background-image: url("images/bw.png");
 }
 #contact{
@@ -285,7 +288,7 @@ input, textarea{
     border-bottom: 1px solid #d9d9d9;
     padding: 0;
     margin-bottom: 10px;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Lato', sans-serif;
 }
 textarea{
     height: 70px;
@@ -295,14 +298,15 @@ textarea{
 button{
     align-self: center;
     border: 2px solid #5f3f61;
-    color: #bbbaba;
+    color: #000;
     padding: 1px 40px;
     cursor: pointer;
     margin-top: 20px;
     border-radius: 15px;
-    background-color: #000;
+    background-color: #5f3f61;
     font-size: 20px;
     opacity: 0.5;
+    font-weight: bolder;    ;
 }
 button:hover {
     border: 1px solid #5f3f61;
@@ -318,7 +322,7 @@ button:hover {
     width: 45%;
     padding: 20px 20px 0 0;
     text-align: justify;
-    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Lato', sans-serif;
     font-size: 18px;
     margin-bottom: 50px;;
 }
@@ -363,7 +367,7 @@ a{
     align-items: center;
     justify-content: space-evenly;
     color: #110012;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #pi-title {
@@ -433,12 +437,12 @@ space{
 
 /* ----------------- LAST SECTION ------------------- */
 #last-section{
-    height: 110vh;
-    background-image: url("images/footerbw.png");
+    background-image: url("images/footerbwcpy.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-bottom: 0px;
+    height: 759px;
 }
 /* ------------------ card movement ------------------ */
 @keyframes come-one{
@@ -710,17 +714,14 @@ space{
 }
 
 .opni h1 {
-    color: #9d87a5;
+    color: #7e4a81;
     font-size: 65px;
     font-family: 'Dancing Script', cursive;
+    font-weight: 400;
 }
 
 .opni h2 {
     color: #bbbaba;
-}
-
-.opni button {
-    color:#d9d9d9;
 }
 
 /*details footer*/
@@ -735,7 +736,6 @@ space{
     align-self: center;
     padding-top: 2px;
     color: #bbbaba;
-    font-family: 'Anonymous Pro', monospace;
     font-size: 26px;
     font-weight: 400;
     font-family: 'Dancing Script', cursive;
@@ -745,4 +745,19 @@ space{
     color: #5f3f61;
     font-size: 36px;
     align-self: center;
+}
+
+footer {
+    padding-top: 250px;
+}
+
+#ss-tile, #ts-title, .ct {
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.p01, .p02, .p03, .p04, .p05, .p06, .p07, .p08, .p09, .p10 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
 }

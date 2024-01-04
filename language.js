@@ -1,7 +1,7 @@
 $(function () { 
     $(".en").click(function() {
         //menu
-        $(".mywork").text("My work");
+        $(".mywork").text("My projects");
         $(".boutme").text("About me");
         $(".contact").text("Contact");
 
@@ -12,11 +12,11 @@ $(function () {
         //second section
         $("#ss-tile").text("My projects");
         $(".lk").text("Click here");
-        $(".p01").text("Project 01");
+        $(".p01").text("Halloween Form");
         $(".d01").text("This is a simple form to make the subscription to a Halloween Party, made using HTML, CSS and Javascript");
-        $(".p02").text("Project 02");
+        $(".p02").text("Calculator");
         $(".d02").text("This is a simple calculator that I made to practice my Javascript skills, i also used HTML and CSS");        
-        $(".p03").text("Project 03");
+        $(".p03").text("Slytherin Website");
         $(".d03").text("This is an website that i made for a college project about Slytherin and Hogwarts, for Slytherin students as me. I used CSS and HTML");        
         $(".p04").text("Coming soon");
         $(".d04").text("In development..");        
@@ -41,6 +41,7 @@ $(function () {
         $("#send-email").text("Send");
         $("#phrase").text("Feel free to reach out to me via the social media links below:");
         $("#rs").text("Resume");
+        $("#lastt").text("Thank you for the attention!");
         $("#last").text("Developed and designed by Yasmin Constantino");
         
         //opening page
@@ -55,7 +56,7 @@ $(function () {
 $(function () { 
     $(".br").click(function() {
         //menu
-        $(".mywork").text("Meu trabalho");
+        $(".mywork").text("Meus projetos");
         $(".boutme").text("Sobre mim");
         $(".contact").text("Contato");
         //titulo
@@ -65,11 +66,11 @@ $(function () {
         //seção secundaria
         $("#ss-tile").text("Meus projetos");
         $(".lk").text("Clique aqui");
-        $(".p01").text("Projeto 01");
+        $(".p01").text("Formulario de Halloween");
         $(".d01").text("Esse é um simples formulário para se increver em uma festa de Halloween, feito usando HTML, CSS e Javascript");
-        $(".p02").text("Projeto 02");
+        $(".p02").text("Calculadora");
         $(".d02").text("Essa é uma calculadora simples que eu fiz para praticar minhas habilidades em Javascript, eu também utilizei HTML e CSS");        
-        $(".p03").text("Projeto 03");
+        $(".p03").text("Site da Sonserina");
         $(".d03").text("Este é um site que fiz para um projeto de faculdade sobre Sonserina e Hogwarts, para alunos da Sonserina como eu. Usei CSS e HTML");        
         $(".p04").text("Em breve");
         $(".d04").text("Em desenvolvimento..");        
@@ -94,6 +95,7 @@ $(function () {
         $("#send-email").text("Enviar");
         $("#phrase").text("Sinta-se à vontade para entrar em contato comigo através dos links abaixo:");
         $("#rs").text("Currículo");
+        $("#lastt").text("Obrigada pela atenção!");
         $("#last").text("Desenvolvido e projetado por Yasmin Constantino");
 
         // pagina de abertura
