@@ -54,7 +54,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    color: #5f3f61;
+    color: #bbbaba;
 }
 
 #sections-link span {
@@ -295,7 +295,7 @@ textarea{
 button{
     align-self: center;
     border: 2px solid #5f3f61;
-    color: #5f3f61;
+    color: #bbbaba;
     padding: 1px 40px;
     cursor: pointer;
     margin-top: 20px;
