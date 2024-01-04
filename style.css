@@ -755,9 +755,5 @@ footer {
     font-family: 'Dancing Script', cursive;
     font-size: 36px;
     font-weight: 300;
-}
-
-.p01, .p02, .p03, .p04, .p05, .p06, .p07, .p08, .p09, .p10 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 25px;
+    color: #5f3f61;
 }
