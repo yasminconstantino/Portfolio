@@ -20,8 +20,8 @@ $(function () {
         $(".d03").text("This is an website that i made for a college project about Slytherin and Hogwarts, for Slytherin students as me. I used CSS and HTML");        
         $(".p04").text("Calendar & Clock");
         $(".d04").text("A simple and pretty calendar website. I made it using HTML, CSS and Javascript");        
-        $(".p05").text("Coming soon");
-        $(".d05").text("In development..");        
+        $(".p05").text("Sticky Notes");
+        $(".d05").text("A sticky notes website that I made using HTML, CSS and Javascript. It's very useful to me");        
         $(".p06").text("Coming soon");
         $(".d06").text("In development..");        
         $(".p07").text("Coming soon");
@@ -74,8 +74,8 @@ $(function () {
         $(".d03").text("Este é um site que fiz para um projeto de faculdade sobre Sonserina e Hogwarts, para alunos da Sonserina como eu. Usei CSS e HTML");        
         $(".p04").text("Calendario e relógio");
         $(".d04").text("Um site simples e bonito com calendario. Feito com HTML, CSS e Javascript");        
-        $(".p05").text("Em breve");
-        $(".d05").text("Em desenvolvimento..");        
+        $(".p05").text("Notas Autoadesivas");
+        $(".d05").text("Um site de notas autoadesivas que eu fiz usando HTML, CSS and Javascript. É muito util para mim");        
         $(".p06").text("Em breve");
         $(".d06").text("Em desenvolvimento..");        
         $(".p07").text("Em breve");
