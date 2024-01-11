@@ -22,8 +22,8 @@ $(function () {
         $(".d04").text("A simple and pretty calendar website. I made it using HTML, CSS and Javascript");        
         $(".p05").text("Sticky Notes");
         $(".d05").text("A sticky notes website that I made using HTML, CSS and Javascript. It's very useful to me");        
-        $(".p06").text("Coming soon");
-        $(".d06").text("In development..");        
+        $(".p06").text("Constantino Art Store");
+        $(".d06").text("It's a simple website that i made just to show my drawings, it's not supposed to work completely as an store, it's just a creative way to show you all my art work. I made it with HTML, CSS and Javascript.");        
         $(".p07").text("Coming soon");
         $(".d07").text("In development..");        
         $(".p08").text("Coming soon");
@@ -76,8 +76,8 @@ $(function () {
         $(".d04").text("Um site simples e bonito com calendario. Feito com HTML, CSS e Javascript");        
         $(".p05").text("Notas Autoadesivas");
         $(".d05").text("Um site de notas autoadesivas que eu fiz usando HTML, CSS and Javascript. É muito util para mim");        
-        $(".p06").text("Em breve");
-        $(".d06").text("Em desenvolvimento..");        
+        $(".p06").text("Constantino Art Store");
+        $(".d06").text("Esse é um site bem simples que eu fiz apenas pra mostrar os meus desenhos, ele não foi feito para funcionar como uma loja, é apenas um jeito criativo de mostrar a minha arte. Fiz ele usando HTML, CSS e Javascript.");        
         $(".p07").text("Em breve");
         $(".d07").text("Em desenvolvimento..");        
         $(".p08").text("Em breve");
