@@ -48,7 +48,7 @@ $(function () {
         $(".mins").text("Yasmin Constantino");
         $("#wda").text("Web developer and artist");
         $(".go").text("Go to the Portfolio");
-        $(".art").text("Check my art");
+        $(".arty").text("Check my art");
     
     });
 });
@@ -102,7 +102,7 @@ $(function () {
         $(".mins").text("Yasmin Constantino");
         $("#wda").text("Desenvolverdora web e artista");
         $(".go").text("Ir ao Portfolio");
-        $(".art").text("Veja minha arte");
+        $(".arty").text("Veja minha arte");
 
     });
 });
