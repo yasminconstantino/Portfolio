@@ -361,13 +361,15 @@ a{
 
 #project-info {
     height: 90vh;
-    background-color: #9d87a5;
+    background-color: #5e4f5f;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     color: #110012;
     font-family: 'Lato', sans-serif;
+    margin: 20px;
+    padding: 20px;
 }
 
 #pi-title {
@@ -396,6 +398,7 @@ line span{
 
 #project-img{
     width: 60%;
+    margin-top: 5px;
     margin-bottom: 20px;
     border: 2px solid #0d0d0d;
 }
@@ -425,10 +428,12 @@ more-info h3{
 }
 
 #back-button{
-    background-color: #272323;
+    background-color: #110012;
+    color: #adabab;
     height: 23px;
     font-weight: 500;
-    border: 2px solid #0d0d0d;
+    border: 2px solid #110012;
+    padding: 5px 15px;
 }
 
 space{
@@ -751,7 +756,7 @@ footer {
     padding-top: 250px;
 }
 
-#ss-tile, #ts-title, .ct {
+#ss-tile, #ts-title, .ct, #ts-tile {
     font-family: 'Dancing Script', cursive;
     font-size: 36px;
     font-weight: 300;
