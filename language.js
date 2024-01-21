@@ -24,8 +24,8 @@ $(function () {
         $(".d05").text("A sticky notes website that I made using HTML, CSS and Javascript. It's very useful to me");        
         $(".p06").text("Constantino Art Store");
         $(".d06").text("It's a simple website that i made just to show my drawings, it's not supposed to work completely as an store, it's just a creative way to show you all my art work. I made it with HTML, CSS and Javascript.");        
-        $(".p07").text("Coming soon");
-        $(".d07").text("In development..");        
+        $(".p07").text("Guess The Number");
+        $(".d07").text("A game where you need to discover the secret number, it was made in javascript so you can play easily, click on the link and enjoy this pretty funny game");        
         $(".p08").text("Coming soon");
         $(".d08").text("In development..");        
         $(".p09").text("Coming soon");
@@ -78,8 +78,8 @@ $(function () {
         $(".d05").text("Um site de notas autoadesivas que eu fiz usando HTML, CSS and Javascript. É muito util para mim");        
         $(".p06").text("Constantino Art Store");
         $(".d06").text("Esse é um site bem simples que eu fiz apenas pra mostrar os meus desenhos, ele não foi feito para funcionar como uma loja, é apenas um jeito criativo de mostrar a minha arte. Fiz ele usando HTML, CSS e Javascript.");        
-        $(".p07").text("Em breve");
-        $(".d07").text("Em desenvolvimento..");        
+        $(".p07").text("Adivinhe o Numero");
+        $(".d07").text("Um jogo onde você precisa descobrir o número secreto, foi feito em javascript para que você possa jogar facilmente, clique no link e aproveite esse jogo bem divertido");        
         $(".p08").text("Em breve");
         $(".d08").text("Em desenvolvimento..");        
         $(".p09").text("Em breve");
