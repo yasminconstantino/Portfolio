@@ -43,6 +43,13 @@ $(function () {
         $("#rs").text("Resume");
         $("#lastt").text("Thank you for the attention!");
         $("#last").text("Developed and designed by Yasmin Constantino");
+        $(".pi01").text("The witch game");
+        $("#ds01").text("DESCRIPTION");
+        $("#ds02").text("This is my biggest project, soon as possible I'll show more details. The game developing still on the primal phase.");
+        $("#pr01").text("PURPOSE");
+        $("#pr02").text("The game will be about one very famous brazillian legend, and tell the world about its story.");        
+        $("#ln01").text("LANGUAGES");
+        $("#ln02").text("I'm using C# at Unity for this game development.");
         
         //opening page
         $(".mins").text("Yasmin Constantino");
@@ -97,6 +104,13 @@ $(function () {
         $("#rs").text("Currículo");
         $("#lastt").text("Obrigada pela atenção!");
         $("#last").text("Desenvolvido e projetado por Yasmin Constantino");
+        $(".pi01").text("O jogo da bruxa");
+        $("#ds01").text("DESCRIÇÃO");
+        $("#ds02").text("Este é o meu maior projeto, assim que possível mostrarei mais detalhes. O desenvolvimento do jogo ainda está na fase inicial.");
+        $("#pr01").text("PROPÓSITO");
+        $("#pr02").text("O jogo será sobre uma lenda brasileira muito famosa e contará ao mundo sua história.");        
+        $("#ln01").text("LINGUAGENS");
+        $("#ln02").text("Estou usando C# no Unity para o desenvolvimento deste jogo.");
 
         // pagina de abertura
         $(".mins").text("Yasmin Constantino");

@@ -222,6 +222,7 @@ body{
     font-size: 13px;
     color: #0d0d0d;
     font-family: 'Lato', sans-serif;
+    border: none;
 }
 .skill-box:hover{
     transition: 0.3s;
@@ -232,6 +233,10 @@ body{
 }
 .skill-box img{
     width: 60%;
+}
+
+#sk5 {
+    max-width: 132px;;
 }
 #ts-title{
     align-self: center;
@@ -360,13 +365,14 @@ a{
 /* ----------------- PROJECT SESSION ---------------- */
 
 #project-info {
-    height: 90vh;
-    background-color: #5e4f5f;
+    height: 100vh;
+    background-color: #110f11;
+    opacity: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    color: #110012;
+    color: #ffffff;
     font-family: 'Lato', sans-serif;
     margin: 20px;
     padding: 20px;
@@ -375,7 +381,7 @@ a{
 #pi-title {
     font-size: 30px;
     padding: 0 20px;
-    border-bottom: 3px solid #0d0d0d;
+    border-bottom: 3px solid #5f3f61;
     font-weight: 600;
 }
 
@@ -407,7 +413,7 @@ more-info{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 60%;
+    width: 80%;
     justify-content: space-between;
 }
 
@@ -424,7 +430,7 @@ more-info h4{
 }
 
 more-info h3{
-    border-bottom: 2px solid #0d0d0d;
+    border-bottom: 2px solid #5f3f61;
 }
 
 #back-button{
