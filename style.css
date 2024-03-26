@@ -8,7 +8,7 @@ a{
     cursor: pointer;
 }
 #first-section{
-    background-image: url("images/headerbw.png");
+    background: linear-gradient(to bottom, #000, #0a0a0a);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -107,6 +107,7 @@ body{
 
 /* ------ work section ------------- */
 #second-section{
+    background: linear-gradient(to bottom, #0a0a0a, #000000);
     height: 95vh;
     display: flex;
     flex-direction: column;
@@ -366,7 +367,7 @@ a{
 
 #project-info {
     height: 100vh;
-    background-color: #110f11;
+    background: linear-gradient(to bottom, #110012, #000000);
     opacity: 50%;
     display: flex;
     flex-direction: column;
@@ -534,12 +535,12 @@ space{
 }
 #leftArrow{
     z-index: 5;
-    width: 15px;
+    height: 50px;
     display: inline-block;
 }
 #rightArrow{
     z-index: 5;
-    width: 15px;
+    height: 50px;
     display: inline-block;
 }
 

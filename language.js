@@ -6,8 +6,8 @@ $(function () {
         $(".contact").text("Contact");
 
         //title
-        $(".welcome").text("Welcome to my Portfolio!");
-        $("#try").text("In development..");
+        $(".welcome").text("Welcome to my Portfolio");
+        $("#try").text("and hope you like it");
 
         //second section
         $("#ss-tile").text("My projects");
@@ -52,8 +52,8 @@ $(function () {
         $("#ln02").text("I'm using C# at Unity for this game development.");
         
         //opening page
-        $(".mins").text("Yasmin Constantino");
-        $("#wda").text("Web developer and artist");
+        $(".mins").text("Hello there!");
+        $("#wda").text("I'm Yasmin Constantino and I'm a Full-Stack Developer and an artist");
         $(".go").text("Go to the Portfolio");
         $(".arty").text("Check my art");
     
@@ -67,8 +67,8 @@ $(function () {
         $(".boutme").text("Sobre mim");
         $(".contact").text("Contato");
         //titulo
-        $(".welcome").text("Bem-vindo ao meu Portfolio!");
-        $("#try").text("Ainda em desenvolvimento..");
+        $(".welcome").text("Bem-vindos ao meu Portfolio");
+        $("#try").text("e espero que gostem");
         
         //seção secundaria
         $("#ss-tile").text("Meus projetos");
@@ -113,8 +113,8 @@ $(function () {
         $("#ln02").text("Estou usando C# no Unity para o desenvolvimento deste jogo.");
 
         // pagina de abertura
-        $(".mins").text("Yasmin Constantino");
-        $("#wda").text("Desenvolverdora web e artista");
+        $(".mins").text("Olá!");
+        $("#wda").text("Eu sou a Yasmin Cosnatntino e sou uma Desenvolverdora Full-Stack e artista");
         $(".go").text("Ir ao Portfolio");
         $(".arty").text("Veja minha arte");
 
