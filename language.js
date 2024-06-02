@@ -43,7 +43,7 @@ $(function () {
         $("#rs").text("Resume");
         $("#lastt").text("Thank you for the attention!");
         $("#last").text("Developed and designed by Yasmin Constantino");
-        $(".pi01").text("The witch game");
+        $(".pi01").text("Cuca's Lair");
         $("#ds01").text("DESCRIPTION");
         $("#ds02").text("This is my biggest project, it was made by my sister and i, we made it for a game jam wich the game should be based on a local legend. ");
         $("#pr01").text("PURPOSE");
@@ -104,7 +104,7 @@ $(function () {
         $("#rs").text("Currículo");
         $("#lastt").text("Obrigada pela atenção!");
         $("#last").text("Desenvolvido e projetado por Yasmin Constantino");
-        $(".pi01").text("O jogo da bruxa");
+        $(".pi01").text("Cuca's Lair");
         $("#ds01").text("DESCRIÇÃO");
         $("#ds02").text("Este é o meu maior projeto, feito por minha irmã e eu, fizemos para uma game jam e onde o jogo deveria ser baseado em uma lenda local.");
         $("#pr01").text("PROPÓSITO");
