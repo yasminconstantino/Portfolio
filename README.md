@@ -4,7 +4,7 @@
 <br>
 <p>This is my portfolio, where you can find my projects, infos and links. You also can read it in both English and Portuguese.</p>
 <br>
-<img src="images/try.gif">
+<img src="images/portfolio.gif">
 <br>
 <h4> Languages and Technologies:</h4>
   <div>
