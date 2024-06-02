@@ -8,7 +8,7 @@
 <br>
 <h4> Languages and Technologies:</h4>
   <div>
-    <img src="icons/html (3).png" width="48"/>
-    <img src="icons/css (1).png" width="48"/>
+    <img src="icons/html.png" width="48"/>
+    <img src="icons/css.png" width="48"/>
     <img src="icons/javascript.png" width="48"/>
   </div>
