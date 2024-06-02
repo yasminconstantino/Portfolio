@@ -8,10 +8,13 @@ a{
     cursor: pointer;
 }
 #first-section{
-    background: linear-gradient(to bottom, #000, #0a0a0a);
-    height: 100vh;
-    background-position: center;
+    background-image: url(images/header.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    /*background: linear-gradient(to bottom, #000, #0a0a0a);*/
+    height: 100vh;
+    /*background-position: center;
+    background-size: cover;*/
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -107,7 +110,8 @@ body{
 
 /* ------ work section ------------- */
 #second-section{
-    background: linear-gradient(to bottom, #0a0a0a, #000000);
+    /*background: linear-gradient(to bottom, #0a0a0a, #000000);*/
+    background-color: #000;
     height: 95vh;
     display: flex;
     flex-direction: column;

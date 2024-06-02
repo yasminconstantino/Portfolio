@@ -6,8 +6,8 @@ $(function () {
         $(".contact").text("Contact");
 
         //title
-        $(".welcome").text("Welcome to my Portfolio");
-        $("#try").text("and hope you like it");
+        $(".welcome").text("Yasmin Constantino's Portfolio");
+        $("#try").text("~ welcome ~");
 
         //second section
         $("#ss-tile").text("My projects");
@@ -45,11 +45,11 @@ $(function () {
         $("#last").text("Developed and designed by Yasmin Constantino");
         $(".pi01").text("The witch game");
         $("#ds01").text("DESCRIPTION");
-        $("#ds02").text("This is my biggest project, soon as possible I'll show more details. The game developing still on the primal phase.");
+        $("#ds02").text("This is my biggest project, it was made by my sister and i, we made it for a game jam wich the game should be based on a local legend. ");
         $("#pr01").text("PURPOSE");
-        $("#pr02").text("The game will be about one very famous brazillian legend, and tell the world about its story.");        
+        $("#pr02").text("In this game you are Sadie and you got caught by Cuca, which is a famous Brazilian legend, and you need to scape from her.");        
         $("#ln01").text("LANGUAGES");
-        $("#ln02").text("I'm using C# at Unity for this game development.");
+        $("#ln02").text("We used C# at Unity for this game development and I made all the game art using Krita.");
         
         //opening page
         $(".mins").text("Hello there!");
@@ -67,8 +67,8 @@ $(function () {
         $(".boutme").text("Sobre mim");
         $(".contact").text("Contato");
         //titulo
-        $(".welcome").text("Bem-vindos ao meu Portfolio");
-        $("#try").text("e espero que gostem");
+        $(".welcome").text("Portfolio: Yasmin Constantino");
+        $("#try").text("~ seja bem-vindo ~");
         
         //seção secundaria
         $("#ss-tile").text("Meus projetos");
@@ -106,11 +106,11 @@ $(function () {
         $("#last").text("Desenvolvido e projetado por Yasmin Constantino");
         $(".pi01").text("O jogo da bruxa");
         $("#ds01").text("DESCRIÇÃO");
-        $("#ds02").text("Este é o meu maior projeto, assim que possível mostrarei mais detalhes. O desenvolvimento do jogo ainda está na fase inicial.");
+        $("#ds02").text("Este é o meu maior projeto, feito por minha irmã e eu, fizemos para uma game jam e onde o jogo deveria ser baseado em uma lenda local.");
         $("#pr01").text("PROPÓSITO");
-        $("#pr02").text("O jogo será sobre uma lenda brasileira muito famosa e contará ao mundo sua história.");        
+        $("#pr02").text("Neste jogo você é Sadie e foi pega pela Cuca, que é uma famosa lenda brasileira, e precisa escapar dela.");        
         $("#ln01").text("LINGUAGENS");
-        $("#ln02").text("Estou usando C# no Unity para o desenvolvimento deste jogo.");
+        $("#ln02").text("Usamos C# no Unity para o desenvolvimento deste jogo e eu fiz toda a arte do jogo usando o Krita.");
 
         // pagina de abertura
         $(".mins").text("Olá!");
