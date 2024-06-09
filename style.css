@@ -68,6 +68,7 @@ body{
     margin-top: 20px;
     border-radius: 10px;
     background-color: #5f3f61;
+    color: #fff;
     opacity: 0.5;
     padding: 8px;
     font-weight: bolder;    ;
@@ -308,7 +309,7 @@ textarea{
 button{
     align-self: center;
     border: 2px solid #5f3f61;
-    color: #000;
+    color: #fff;
     padding: 1px 40px;
     cursor: pointer;
     margin-top: 20px;
