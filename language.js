@@ -35,7 +35,11 @@ $(function () {
         $(".d10").text("This is a simple form to make the subscription to a Halloween Party, made using HTML, CSS and Javascript");
 
         $("#ts-title").text("About me");
-        $("#ts-text").text("Hello there! My name is Yasmin and I'm 23 years old. I like challenging myself learning new things.I used to be just an artist, but now i'm also starting my career as an Web Developer. Besides I'm studying Internet Systems Technology at IFSul, as my first graduation. Before that I learned a lot things by my own and with Alura and Rocketseat projects. I'm a self-taught person, I learned English by my own, and I also learned a lot about development by myself, like Python, JavaScript, C++, HTML and CSS.");
+        $("#ts-text").html(
+            `Hello there! I'm a 23-year-old who loves taking on new challenges and learning new things. I started my career as an artist, but now I'm diving on Web Development. I'm currently studying Internet Systems Technology at IFSul, it's my first degree.<br><br>
+            Before this, I learned a lot through projects from Alura and Rocketseat. I'm proud to be self-taught; I taught myself English and picked up several programming languages like Python, JavaScript, C++, HTML, and CSS along the way.<br><br>
+            Lately, I've been working on both frontend and backend development. I've been exploring Java and game development, I also worked on some illustrations for a game. My recent projects have sharpened these skills, and I'm eager to keep growing as a full-stack developer.`
+        );  
         $(".ct").text("Contact me");
         $(".em").text("Your email:");
         $(".sb").text("Subject:");
@@ -96,9 +100,14 @@ $(function () {
         $(".d09").text("Essa é uma calculadora simples que eu fiz para praticar minhas habilidades em Javascript, eu também utilizei HTML e CSS"); 
         $(".p10").text("Formulario de Halloween");
         $(".d10").text("Esse é um simples formulário para se increver em uma festa de Halloween, feito usando HTML, CSS e Javascript");  
-        
+
         $("#ts-title").text("Sobre mim");
-        $("#ts-text").text("Oii! Meu nome é Yasmin e eu tenho 23 anos. Eu gosto de me desafiar a aprender coisas novas.Eu costumava ser apenas uma artista, Mas agora eu também estou iniciando minha carreira como uma Desenvolvedora Web.Além disso eu também estou cursando Tecnologia em Sistemas para Internet no IFSul, é a minha primeria graduação. Antes disso eu aprendi muito sozinha e também com pequenos projetos na Alura e Rocketseat. Eu sou autodidata, Eu aprendi inglês sozinha e também aprendi muito sobre programação sozinha, como Python, JavaScript, C++, HTML e CSS.");
+
+        $("#ts-texto").html(
+         `Olá! Tenho 23 anos e adoro enfrentar novos desafios e aprender coisas novas. Comecei a trabalhar como artista, mas agora estou mudando para o Desenvolvimento Web. Atualmente estou cursando Tecnologia de Sistemas para Internet no IFSul, é a minha primeira graduação.<br><br>
+         Antes disso, aprendi muito através de projetos da Alura e Rocketseat; Aprendi inglês sozinha e aprendi diversas linguagens de programação como Python, JavaScript, C++, HTML e CSS ao longo do caminho de forma autodidata.<br><br>
+         Ultimamente, tenho trabalhado em pequenos projetos de desenvolvimento front-end e back-end. Tenho explorado Java e desenvolvimento de jogos, além de que trabalhei com ilustrações para um jogo. Meus projetos recentes aprimoraram essas habilidades e estou ansiosa para continuar crescendo como desenvolvedora full-stack.`
+         );
         $(".ct").text("Entre em contato");
         $(".em").text("Seu email:");
         $(".sb").text("Assunto:");
