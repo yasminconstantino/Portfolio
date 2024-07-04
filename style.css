@@ -76,14 +76,6 @@ body{
     border: 2px solid #5f3f61;
 }
 
-#sections-link span:hover {
-    opacity: 0.8;
-    background-color: #0d0d0d;
-    color: #adabab;
-    transition: 0.3s;
-    border-radius: 10px;
-    border: 1px solid #5f3f61;
-}
 
 #first-section h1{
     align-self: center;
@@ -317,14 +309,7 @@ button{
     background-color: #5f3f61;
     font-size: 20px;
     opacity: 0.95;
-    font-weight: bolder;    ;
-}
-button:hover {
-    border: 1px solid #5f3f61;
-    opacity: 0.8;
-    background-color: #0d0d0d;
-    color: #5f3f61;
-    transition: 0.3s;
+    font-weight: bolder;
 }
 
 #phrase{
@@ -358,10 +343,11 @@ button:hover {
 #send-email{
     transition: 0.3s;
 }
-#send-email:hover{
+#send-email:hover, button:hover, #sections-link span a:hover {
     background-color: #5f3f61;
     color: #0d0d0d;
     transition: 0.3s;
+    opacity: 0.7;
     /*border: 1px solid #5f3f61;
     opacity: 0.8;
     background-color: #0d0d0d;
