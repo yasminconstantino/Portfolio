@@ -69,7 +69,7 @@ body{
     border-radius: 10px;
     background-color: #5f3f61;
     color: #fff;
-    opacity: 0.5;
+    opacity: 0.95;
     padding: 8px;
     font-weight: bolder;    ;
     font-size: 20px;
@@ -316,7 +316,7 @@ button{
     border-radius: 15px;
     background-color: #5f3f61;
     font-size: 20px;
-    opacity: 0.5;
+    opacity: 0.95;
     font-weight: bolder;    ;
 }
 button:hover {
@@ -362,6 +362,11 @@ button:hover {
     background-color: #5f3f61;
     color: #0d0d0d;
     transition: 0.3s;
+    /*border: 1px solid #5f3f61;
+    opacity: 0.8;
+    background-color: #0d0d0d;
+    color: #5f3f61;
+    transition: 0.3s;*/
 }
 
 a{
