@@ -36,10 +36,10 @@ $(function () {
 
         $("#ts-title").text("About me");
         $("#ts-text").html(
-            `Hello there! I'm a 23-year-old who loves taking on new challenges and learning new things. I started my career as an artist, but now I'm diving on Web Development. I'm currently studying Internet Systems Technology at IFSul, it's my first degree.<br><br>
+            `Hello there! I'm a 24-year-old who loves taking on new challenges and learning new things. I started my career as an artist, but now I'm diving on Web Development. I'm currently studying Internet Systems Technology at IFSul, it's my first degree.<br><br>
             Before this, I learned a lot through projects from Alura and Rocketseat. I'm proud to be self-taught; I taught myself English and picked up several programming languages like Python, JavaScript, C++, HTML, and CSS along the way.<br><br>
-            Lately, I've been working on both frontend and backend development. I've been exploring Java and game development, I also worked on some illustrations for a game. My recent projects have sharpened these skills, and I'm eager to keep growing as a full-stack developer.`
-        );  
+            Lately, I've been working on both frontend and backend development. I've been exploring Java and game development, I also worked on some illustrations for a game. My recent projects have sharpened these skills, and I'm eager to keep growing as a full-stack developer.<br><br>
+            Nowadays I'm a Data Engineering Intern at Compass Uol, I also had work as a Data Analyst, and I daily work with Pyhton, SQL, Docker Container, Apache Spark and with AWS Cloud Services.`);  
         $(".ct").text("Contact me");
         $(".em").text("Your email:");
         $(".sb").text("Subject:");
@@ -103,11 +103,11 @@ $(function () {
 
         $("#ts-title").text("Sobre mim");
 
-        $("#ts-texto").html(
-         `Olá! Tenho 23 anos e adoro enfrentar novos desafios e aprender coisas novas. Comecei a trabalhar como artista, mas agora estou mudando para o Desenvolvimento Web. Atualmente estou cursando Tecnologia de Sistemas para Internet no IFSul, é a minha primeira graduação.<br><br>
+        $("#ts-text").html(
+         `Olá! Tenho 24 anos e adoro enfrentar novos desafios e aprender coisas novas. Comecei a trabalhar como artista, mas agora estou mudando para o Desenvolvimento Web. Atualmente estou cursando Tecnologia de Sistemas para Internet no IFSul, é a minha primeira graduação.<br><br>
          Antes disso, aprendi muito através de projetos da Alura e Rocketseat; Aprendi inglês sozinha e aprendi diversas linguagens de programação como Python, JavaScript, C++, HTML e CSS ao longo do caminho de forma autodidata.<br><br>
-         Ultimamente, tenho trabalhado em pequenos projetos de desenvolvimento front-end e back-end. Tenho explorado Java e desenvolvimento de jogos, além de que trabalhei com ilustrações para um jogo. Meus projetos recentes aprimoraram essas habilidades e estou ansiosa para continuar crescendo como desenvolvedora full-stack.`
-         );
+         Ultimamente, tenho trabalhado em pequenos projetos de desenvolvimento front-end e back-end. Tenho explorado Java e desenvolvimento de jogos, além de que trabalhei com ilustrações para um jogo. Meus projetos recentes aprimoraram essas habilidades e estou ansiosa para continuar crescendo como desenvolvedora full-stack.<br><br>
+         Atualmente sou Estagiária de Engenharia de Dados na Compass Uol, também tive trabalhei como Analista de Dados, e trabalho diariamente com Pyhton, SQL, Docker Container, Apache Spark e com AWS Cloud Services.`);
         $(".ct").text("Entre em contato");
         $(".em").text("Seu email:");
         $(".sb").text("Assunto:");
