@@ -1,7 +1,7 @@
 $(function () { 
     $(".en").click(function() {
         //menu
-        $(".mywork").text("My projects");
+        $(".mywork").text("Projects");
         $(".boutme").text("About me");
         $(".contact").text("Contact");
 
@@ -10,36 +10,36 @@ $(function () {
         $("#try").text("~ welcome ~");
 
         //second section
-        $("#ss-tile").text("My projects");
+        $("#ss-tile").text("Some projects");
         $(".lk").text("Click here");
 
-        $(".p01").text("Slytherin Website");
-        $(".d01").text("This is an website that i made for a college project about Slytherin and Hogwarts, for Slytherin students as me. I used CSS and HTML");        
-        $(".p02").text("Constantino Art Store");
-        $(".d02").text("It's a simple site to showcase my drawings, not a functional store. Made with HTML, CSS, and Javascript.");        
-        $(".p03").text("Sticky Notes and Calendar");
-        $(".d03").text("A sticky notes website that I made using HTML, CSS and Javascript. It's very useful to me and also shows us the calendar to help on the personal organization");        
-        $(".p04").text("Guess The Number");
-        $(".d04").text("A game where you need to discover the secret number, it was made in javascript so you can play easily, click on the link and enjoy this pretty funny game");        
-        $(".p05").text("Cuca's Lair");
-        $(".d05").text("This is the Cuca's Lair game website.");        
-        $(".p06").text("Nimcord");
-        $(".d06").text("Chat made with Python.");        
-        $(".p07").text("Tic Tac Toe");
-        $(".d07").text("A game that I made using react JS, HTML and CSS.");        
-        $(".p08").text("Vendas.java");
-        $(".d08").text("A simple MVC Java project built with Maven, using SQLite and DBeaver for database management. It demonstrates database connectivity and CRUD operations.");
-        $(".p09").text("Calculator");
-        $(".d09").text("This is a simple calculator that I made to practice my Javascript skills, i also used HTML and CSS");        
-        $(".p10").text("Halloween Form");
-        $(".d10").text("This is a simple form to make the subscription to a Halloween Party, made using HTML, CSS and Javascript");
+        $(".p01").text("FindVet Website");
+        $(".d01").text("This is an website created for my undergraduate thesis, allows veterinarians and pet owners to better manage their pets' health. Made using: React, Laravel e FullCalendar.");        
+        $(".p02").text("Pixel Art Assets");
+        $(".d02").text("I made some illustrations for a game, and it can also be used by people who finds it interesting for some project.");        
+        $(".p03").text("Cuca's Lair");
+        $(".d03").text("It's a game made for a game jam, I worked on all the illustrations and also de soundtrack.");        
+        $(".p04").text("Constantino Art Store");
+        $(".d04").text("It's a simple site to showcase my drawings, not a functional store. Made with HTML, CSS, and Javascript.");        
+        // $(".p05").text("Cuca's Lair");
+        // $(".d05").text("This is the Cuca's Lair game website.");        
+        // $(".p06").text("Nimcord");
+        // $(".d06").text("Chat made with Python.");        
+        // $(".p07").text("Tic Tac Toe");
+        // $(".d07").text("A game that I made using react JS, HTML and CSS.");        
+        // $(".p08").text("Vendas.java");
+        // $(".d08").text("A simple MVC Java project built with Maven, using SQLite and DBeaver for database management. It demonstrates database connectivity and CRUD operations.");
+        // $(".p09").text("Calculator");
+        // $(".d09").text("This is a simple calculator that I made to practice my Javascript skills, i also used HTML and CSS");        
+        // $(".p10").text("Halloween Form");
+        // $(".d10").text("This is a simple form to make the subscription to a Halloween Party, made using HTML, CSS and Javascript");
 
         $("#ts-title").text("About me");
         $("#ts-text").html(
-            `Hello there! I'm a 24-year-old who loves taking on new challenges and learning new things. I started my career as an artist, but now I'm diving on Web Development. I'm currently studying Internet Systems Technology at IFSul, it's my first degree.<br><br>
+            `Hello there! I'm a 25-year-old who loves taking on new challenges and learning new things. I started my career as an artist, but now I'm diving on Web Development. I'm currently studying Internet Systems Technology at IFSul, it's my first degree.<br><br>
             Before this, I learned a lot through projects from Alura and Rocketseat. I'm proud to be self-taught; I taught myself English and picked up several programming languages like Python, JavaScript, C++, HTML, and CSS along the way.<br><br>
             Lately, I've been working on both frontend and backend development. I've been exploring Java and game development, I also worked on some illustrations for a game. My recent projects have sharpened these skills, and I'm eager to keep growing as a full-stack developer.<br><br>
-            Nowadays I'm a Data Engineering Intern at Compass Uol, I also had work as a Data Analyst, and I daily work with Pyhton, SQL, Docker Container, Apache Spark and with AWS Cloud Services.`);  
+            Nowadays I've experience as a Data Engineering at Compass Uol, I also had work as a Data Analyst, and I daily work with Pyhton, SQL, Docker Container, Apache Spark and mainly with AWS Cloud Services.`);  
         $(".ct").text("Contact me");
         $(".em").text("Your email:");
         $(".sb").text("Subject:");
@@ -69,7 +69,7 @@ $(function () {
 $(function () { 
     $(".br").click(function() {
         //menu
-        $(".mywork").text("Meus projetos");
+        $(".mywork").text("Projetos");
         $(".boutme").text("Sobre mim");
         $(".contact").text("Contato");
         //titulo
@@ -77,29 +77,29 @@ $(function () {
         $("#try").text("~ seja bem-vindo ~");
         
         //seção secundaria
-        $("#ss-tile").text("Meus projetos");
+        $("#ss-tile").text("Alguns projetos");
         $(".lk").text("Clique aqui");
      
-        $(".p01").text("Site da Sonserina");
-        $(".d01").text("Este é um site que fiz para um projeto de faculdade sobre Sonserina e Hogwarts, para alunos da Sonserina como eu. Usei CSS e HTML");        
-        $(".p02").text("Constantino Art Store");
-        $(".d02").text("Este é um site simples para mostrar meus desenhos, feito com HTML, CSS e Javascript. Não é uma loja, apenas um jeito criativo de exibir minha arte.");        
-        $(".p03").text("Notas Autoadesivas e Calendario");
-        $(".d03").text("Um site de notas autoadesivas que eu fiz usando HTML, CSS and Javascript. É muito util para mim ");        
-        $(".p04").text("Adivinhe o Numero");
-        $(".d04").text("Um jogo onde você precisa descobrir o número secreto, foi feito em javascript para que você possa jogar facilmente, clique no link e aproveite esse jogo bem divertido");        
-        $(".p05").text("Cuca's Lair");
-        $(".d05").text("Esse é o site feito pro jogo Cuca's Lair.");        
-        $(".p06").text("Nimcord");
-        $(".d06").text("Chat feito com python.");        
-        $(".p07").text("Tic Tac Toe");
-        $(".d07").text("Um jogo que fiz usando react JS, HTML e CSS.");        
-        $(".p08").text("Vendas.java");
-        $(".d08").text("Um projeto Java MVC simples construído com Maven, usando SQLite e DBeaver para gerenciamento de banco de dados. Ele demonstra conectividade de banco de dados e operações CRUD.");
-        $(".p09").text("Calculadora");
-        $(".d09").text("Essa é uma calculadora simples que eu fiz para praticar minhas habilidades em Javascript, eu também utilizei HTML e CSS"); 
-        $(".p10").text("Formulario de Halloween");
-        $(".d10").text("Esse é um simples formulário para se increver em uma festa de Halloween, feito usando HTML, CSS e Javascript");  
+        $(".p01").text("Site FindVet");
+        $(".d01").text("É um  feito pro meu Trabalho de conclusão de curso da graduação, permite a veterinarios e tutores de pet fazerem um melhor gerenciamento da saúde deste. Feito com: React, Laravel e FullCalendar.");        
+        $(".p02").text("Pixel Art Assets");
+        $(".d02").text("Fiz algumas ilustrações para um jogo, e elas também podem ser usadas por quem as achar interessante para algum projeto.");        
+        $(".p03").text("Cuca's Lair");
+        $(".d03").text("É um jogo feito para uma game jam, eu trabalhei em todas as ilustrações e também na trilha sonora.");        
+        $(".p04").text("Constantino Art Store");
+        $(".d04").text("É um site simples para exibir meus desenhos, não uma loja funcional. Feito com HTML, CSS e Javascript.");        
+        // $(".p05").text("Cuca's Lair");
+        // $(".d05").text("Esse é o site feito pro jogo Cuca's Lair.");        
+        // $(".p06").text("Nimcord");
+        // $(".d06").text("Chat feito com python.");        
+        // $(".p07").text("Tic Tac Toe");
+        // $(".d07").text("Um jogo que fiz usando react JS, HTML e CSS.");        
+        // $(".p08").text("Vendas.java");
+        // $(".d08").text("Um projeto Java MVC simples construído com Maven, usando SQLite e DBeaver para gerenciamento de banco de dados. Ele demonstra conectividade de banco de dados e operações CRUD.");
+        // $(".p09").text("Calculadora");
+        // $(".d09").text("Essa é uma calculadora simples que eu fiz para praticar minhas habilidades em Javascript, eu também utilizei HTML e CSS"); 
+        // $(".p10").text("Formulario de Halloween");
+        // $(".d10").text("Esse é um simples formulário para se increver em uma festa de Halloween, feito usando HTML, CSS e Javascript");  
 
         $("#ts-title").text("Sobre mim");
 
@@ -107,7 +107,7 @@ $(function () {
          `Olá! Tenho 24 anos e adoro enfrentar novos desafios e aprender coisas novas. Comecei a trabalhar como artista, mas agora estou mudando para o Desenvolvimento Web. Atualmente estou cursando Tecnologia de Sistemas para Internet no IFSul, é a minha primeira graduação.<br><br>
          Antes disso, aprendi muito através de projetos da Alura e Rocketseat; Aprendi inglês sozinha e aprendi diversas linguagens de programação como Python, JavaScript, C++, HTML e CSS ao longo do caminho de forma autodidata.<br><br>
          Ultimamente, tenho trabalhado em pequenos projetos de desenvolvimento front-end e back-end. Tenho explorado Java e desenvolvimento de jogos, além de que trabalhei com ilustrações para um jogo. Meus projetos recentes aprimoraram essas habilidades e estou ansiosa para continuar crescendo como desenvolvedora full-stack.<br><br>
-         Atualmente sou Estagiária de Engenharia de Dados na Compass Uol, também tive trabalhei como Analista de Dados, e trabalho diariamente com Pyhton, SQL, Docker Container, Apache Spark e com AWS Cloud Services.`);
+         Atualmente tenho experiencia com Engenharia de Dados na Compass Uol, também tive trabalhei como Analista de Dados, e trabalho diariamente com Pyhton, SQL, Docker Container, Apache Spark e principalmente com AWS Cloud Services.`);
         $(".ct").text("Entre em contato");
         $(".em").text("Seu email:");
         $(".sb").text("Assunto:");
